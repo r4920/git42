@@ -71,64 +71,6 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                           children: [
                                             GestureDetector(
                                                 onTap: () {
-                                                  onTapTelegramXMainScreen();
-                                                },
-                                                child: Container(
-                                                    width: getHorizontalSize(
-                                                        375.00),
-                                                    decoration: BoxDecoration(
-                                                        color: ColorConstant
-                                                            .whiteA700),
-                                                    child: Column(
-                                                        mainAxisSize:
-                                                            MainAxisSize.min,
-                                                        mainAxisAlignment:
-                                                            MainAxisAlignment
-                                                                .start,
-                                                        children: [
-                                                          Align(
-                                                              alignment: Alignment
-                                                                  .centerLeft,
-                                                              child: Padding(
-                                                                  padding: EdgeInsets.only(
-                                                                      left: getHorizontalSize(
-                                                                          20.00),
-                                                                      top: getVerticalSize(
-                                                                          10.00),
-                                                                      right: getHorizontalSize(
-                                                                          20.00),
-                                                                      bottom: getVerticalSize(
-                                                                          10.00)),
-                                                                  child: Text(
-                                                                      "msg_01_telegram_x_m"
-                                                                          .tr,
-                                                                      overflow:
-                                                                          TextOverflow
-                                                                              .ellipsis,
-                                                                      textAlign:
-                                                                          TextAlign
-                                                                              .center,
-                                                                      style: AppStyle
-                                                                          .textStyleregular20
-                                                                          .copyWith(fontSize: getFontSize(20))))),
-                                                          Container(
-                                                              height:
-                                                                  getVerticalSize(
-                                                                      1.00),
-                                                              width:
-                                                                  getHorizontalSize(
-                                                                      375.00),
-                                                              margin: EdgeInsets
-                                                                  .only(
-                                                                      top: getVerticalSize(
-                                                                          5.00)),
-                                                              decoration:
-                                                                  BoxDecoration(
-                                                                      color: ColorConstant
-                                                                          .bluegray401))
-                                                        ]))),
-                                            GestureDetector(
-                                                onTap: () {
                                                   onTapIncomingCallNotification();
                                                 },
                                                 child: Container(
@@ -419,10 +361,6 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                         ])))
                                           ])))))
                     ]))));
-  }
-
-  onTapTelegramXMainScreen() {
-    Get.toNamed(AppRoutes.telegramXMainScreen);
   }
 
   onTapIncomingCallNotification() {

@@ -54,11 +54,3 @@ Check your app's UI from the AppNavigation screen of your app.
 ├── routes                      - contains all the routes of application
 └── theme                       - contains app theme and decoration classes
 ```
-
-### Image Assets
-We were unable to find Images, Please add manually to ```project/assets``` and replace image_not_found Image constant with original file 
-
-| File Name | Not Found Assets Count |
-| --- | :---: |
-| group59_item_widget | 1 |
-

@@ -1,5 +1,3 @@
-import 'package:rahul_s_application11/presentation/telegram_x_main_screen/telegram_x_main_screen.dart';
-import 'package:rahul_s_application11/presentation/telegram_x_main_screen/binding/telegram_x_main_binding.dart';
 import 'package:rahul_s_application11/presentation/incoming_call_notification_screen/incoming_call_notification_screen.dart';
 import 'package:rahul_s_application11/presentation/incoming_call_notification_screen/binding/incoming_call_notification_binding.dart';
 import 'package:rahul_s_application11/presentation/incoming_call_notification1_screen/incoming_call_notification1_screen.dart';
@@ -15,8 +13,6 @@ import 'package:rahul_s_application11/presentation/app_navigation_screen/binding
 import 'package:get/get.dart';
 
 class AppRoutes {
-  static String telegramXMainScreen = '/telegram_x_main_screen';
-
   static String incomingCallNotificationScreen =
       '/incoming_call_notification_screen';
 
@@ -37,13 +33,6 @@ class AppRoutes {
   static String initialRoute = '/initialRoute';
 
   static List<GetPage> pages = [
-    GetPage(
-      name: telegramXMainScreen,
-      page: () => TelegramXMainScreen(),
-      bindings: [
-        TelegramXMainBinding(),
-      ],
-    ),
     GetPage(
       name: incomingCallNotificationScreen,
       page: () => IncomingCallNotificationScreen(),
@@ -88,9 +77,9 @@ class AppRoutes {
     ),
     GetPage(
       name: initialRoute,
-      page: () => TelegramXMainScreen(),
+      page: () => IncomingCallNotificationScreen(),
       bindings: [
-        TelegramXMainBinding(),
+        IncomingCallNotificationBinding(),
       ],
     )
   ];

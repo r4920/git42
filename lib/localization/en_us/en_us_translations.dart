@@ -17,7 +17,6 @@ final Map<String, String> enUs = {
   "lbl_maybe": "Maybe...",
   "msg_03_incoming_cal": "03 Incoming Call Notification",
   "msg_robert_lee_zeme": "Robert Lee Zemeckis",
-  "msg_01_telegram_x_m": "01 Telegram X Main Screen",
   "lbl_emmett_brown": "Emmett Brown",
   "lbl_okay": "Okay",
   "msg_telegram_voice": "Telegram voice call",
